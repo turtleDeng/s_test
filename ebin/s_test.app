@@ -1,0 +1,13 @@
+{application,s_test,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{s_test_app,[]}},
+              {env,[]},
+              {modules,[emysql_pool_manager,fsm_fight,hmisc,lib_player,
+                        lib_team,listener_sup,mod_kernel,mod_player,
+                        mod_server,mod_team,mysql_test,mysql_utils,pt,s_test,
+                        s_test_app,s_test_sup,socket_server,tcp_acceptor,
+                        tcp_acceptor_sup,tcp_client_handler,tcp_listener,
+                        tcp_listener_sup]}]}.

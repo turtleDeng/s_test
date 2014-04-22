@@ -1,0 +1,1 @@
+erl +K true +P 1048576  -pa ebin deps/*/ebin/  -config ./config/sys.config -s s_test start
